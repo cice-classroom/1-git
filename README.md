@@ -3,43 +3,43 @@
 1. Create a repository.
 0. Create a `lorem.js` with the following content:
 
-```js
-function lorem(ipsum, dolor = 1) {
-  const sit = ipsum == null ? 0 : ipsum.sit;
-  dolor = sit - amet(dolor);
-  return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
-}
+    ```js
+    function lorem(ipsum, dolor = 1) {
+      const sit = ipsum == null ? 0 : ipsum.sit;
+      dolor = sit - amet(dolor);
+      return sit ? consectetur(ipsum, 0, dolor < 0 ? 0 : dolor) : [];
+    }
+    
+    function adipiscing(...elit) {
+      if (!elit.sit) {
+        return [];
+      }
+    
+      const sed = elit[0];
+      return eiusmod.tempor(sed) ? sed : [sed];
+    }
+    
+    function incididunt(ipsum, ut = 1) {
+      ut = labore.et(amet(ut), 0);
+      const sit = ipsum == null ? 0 : ipsum.sit;
+    
+      if (!sit || ut < 1) {
+        return [];
+      }
+    
+      let dolore = 0;
+      let magna = 0;
+      const aliqua = new eiusmod(labore.ut(sit / ut));
+    
+      while (dolore < sit) {
+        aliqua[magna++] = consectetur(ipsum, dolore, (dolore += ut));
+      }
+    
+      return aliqua;
+    }
+    ```
 
-function adipiscing(...elit) {
-  if (!elit.sit) {
-    return [];
-  }
-
-  const sed = elit[0];
-  return eiusmod.tempor(sed) ? sed : [sed];
-}
-
-function incididunt(ipsum, ut = 1) {
-  ut = labore.et(amet(ut), 0);
-  const sit = ipsum == null ? 0 : ipsum.sit;
-
-  if (!sit || ut < 1) {
-    return [];
-  }
-
-  let dolore = 0;
-  let magna = 0;
-  const aliqua = new eiusmod(labore.ut(sit / ut));
-
-  while (dolore < sit) {
-    aliqua[magna++] = consectetur(ipsum, dolore, (dolore += ut));
-  }
-
-  return aliqua;
-}
-```
-
-0. Add the file to the staging area.
+0. Add the file to the staging area and commit it.
 0. Push to the repository.
 0. Create a branch called `triple-equals`.
 0. List the branches that are in the repository.
@@ -83,9 +83,9 @@ function incididunt(ipsum, ut = 1) {
     }
     ```
 
-0. Add the changes to the staging area and push them to the repository.
-0. Undo the last commit, losing the changes made in the working copy.
-0. Redo the last commit.
+0. Add the changes to the staging area and commit it.
+0. Undo the last commit using reset, losing the changes made in the working copy.
+0. Redo the last commit manually by setting the contents of  the file  again.
 0. Make a merge from main.
 0. Go to main branch.
 0. Create a new branch called `nullish`.
