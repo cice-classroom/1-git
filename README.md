@@ -86,7 +86,6 @@
 0. Add the changes to the staging area and commit it.
 0. Undo the last commit using reset, losing the changes made in the working copy.
 0. Redo the last commit manually by setting the contents of  the file  again.
-0. Make a merge from main.
 0. Go to main branch.
 0. Create a new branch called `nullish`.
 0. Change to the new branch `nullish`.
@@ -133,9 +132,8 @@
 0. If there are conflicts, we should solve them with the content of the `nullish` branch.
 0. From `main`, merge `nullish`.
 0. Create a branch `title` and change to that branch.
-0. Add JSDoc with a comment
+0. Add a comment above the function: `// Some comment`
 0. Go to `main` branch
-
 0. Merge with "no fast-forward" from `main` the `title` branch.
 0. Undo the merge (without losing the working copy changes).
 0. Discard the changes.
